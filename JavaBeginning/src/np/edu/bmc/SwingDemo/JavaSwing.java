@@ -21,7 +21,9 @@ public class JavaSwing  extends JFrame{
         jPanel.setBackground(Color.red);
         
         JButton jButton = new JButton("Click me");
+        jButton.setToolTipText("Click for the magic");
         JButton jButton1 = new JButton("Click me if you can");
+        jButton1.setToolTipText("Click me if you love me");
         JLabel jLabel = new JLabel("I am a Label");
         JTextField txt = new JTextField("this is pretext",15);
         JPasswordField password = new JPasswordField(20);

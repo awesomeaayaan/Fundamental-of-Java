@@ -7,6 +7,6 @@ public class Child extends Parent {
     public static void main(String[] args) {
         Child c = new Child();
  
-        System.out.println(c.area(1.0f));
+        System.out.println("the area of the square is "+c.area(2.0f));
     }
 }

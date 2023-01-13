@@ -1,11 +1,9 @@
 
 package np.edu.bmc.Threading;
-
-
 public class MultiThread extends Thread  {
     
     public void run(){
-        for(int i=0;i<=10;i++){
+        for(int i=0;i<=5;i++){
             System.out.println(i);
              try{Thread.sleep(500); }catch(InterruptedException e){}
         }
@@ -15,7 +13,7 @@ public class MultiThread extends Thread  {
 class AnotherThread extends Thread{
     @Override
     public void run(){
-        for(int i=11;i<=20;i++){
+        for(int i=6;i<=10;i++){
             System.out.println(i);
              try{Thread.sleep(1000); }catch(InterruptedException e){}
             

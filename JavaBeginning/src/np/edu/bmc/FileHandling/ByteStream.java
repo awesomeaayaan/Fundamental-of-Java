@@ -6,9 +6,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-
-
-
 public class ByteStream {
     public static void main(String[] args) throws FileNotFoundException, IOException {
         FileInputStream fis = new FileInputStream("apple.txt");

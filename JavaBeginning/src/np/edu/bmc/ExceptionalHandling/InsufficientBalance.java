@@ -21,6 +21,9 @@ class ATM{
             catch(InsufficientBalance ex){
                 System.out.println(ex);
             }
+            finally{
+                System.out.println("finally is always executed ");
+            }
         }
     }
 }

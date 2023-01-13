@@ -11,15 +11,11 @@ public class Son extends Father {
         final int B;//b become constant
         //once assigned any value, that variable become constant
         B=20;
-     
-    
         Father ff = new Father();
         ff.gift();
         Son s = new Son();
         Father f = new Son();
-        
         f.gift();
-        
         s.gift();
     }
     

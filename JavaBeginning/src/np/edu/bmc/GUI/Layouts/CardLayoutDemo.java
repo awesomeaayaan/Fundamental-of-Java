@@ -9,6 +9,10 @@ public class CardLayoutDemo extends JFrame {
         
        JLabel jLabel = new JLabel("I am first Jlabel");
        JLabel jLabel1 = new JLabel("I am second Jlabel");
+       
+       
+       jLabel.setBounds(10,10,70,40);
+       jLabel.setBounds(10,30,90,40);
       
        add(jLabel);
        add(jLabel1);
